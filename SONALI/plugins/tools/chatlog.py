@@ -11,11 +11,11 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-    "https://files.catbox.moe/nksezk.jpg",
+    "https://files.catbox.moe/vyvvp3.jpg",
     "https://files.catbox.moe/w1b203.jpg",
     "https://files.catbox.moe/97hzek.jpg",
     "https://files.catbox.moe/mqkj80.jpg",
-    "https://files.catbox.moe/mz5ojc.jpg",
+    "https://files.catbox.moe/vyvvp3.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
@@ -30,13 +30,13 @@ async def join_watcher(_, message):
                 f"____________________________________\n\n"
                 f"📌 𝐂𝐇𝐀𝐓 𝐍𝐀𝐌𝐄💦: {chat.title}\n"
                 f"🍂 𝐂𝐇𝐀𝐓 𝐈𝐃: {chat.id}\n"
-                f"🔐 ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{chat.username}\n"
-                f"🙏𝐂𝐇𝐀𝐓 𝐋𝐈𝐍𝐊: [ᴄʟɪᴄᴋ]({link})\n"
+                f"🔐 𝐂𝐇𝐀𝐓 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄🌾: @{chat.username}\n"
+                f"🙏𝐂𝐇𝐀𝐓 𝐋𝐈𝐍𝐊💔: [𝐂𝐋𝐈𝐂𝐊]({link})\n"
                 f"📈 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐌𝐁𝐄𝐑𝐒: {count}\n"
-                f"🤔 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
+                f"🤔 𝐀𝐃𝐃𝐄𝐃 𝐁𝐘💔: {message.from_user.mention}"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ👀", url=f"{link}")]
+                [InlineKeyboardButton(f"𝐒𝐄𝐄 𝐆𝐑𝐎𝐔𝐏👀", url=f"{link}")]
             ]))
 
 @app.on_message(filters.left_chat_member)
