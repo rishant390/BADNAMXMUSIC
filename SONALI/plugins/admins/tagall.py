@@ -218,4 +218,4 @@ async def cancel_spam(client, message):
             spam_chats.remove(message.chat.id)
         except:
             pass
-        return await message.reply("♦𝐏υяꪜɪ sᴛᴏᴘᴘᴇᴅ ᴛᴀɢɪɴɢ...♦")
+        return await message.reply("♦𝐁𝐀𝐃𝐍𝐀𝐌 🥂 sᴛᴏᴘᴘᴇᴅ ᴛᴀɢɪɴɢ...♦")
