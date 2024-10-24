@@ -19,19 +19,19 @@ from telethon.tl.functions.phone import (
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("**❤️‍🔥𝗩𝗖 𝗦𝗧𝗔𝗥𝗧 𝗞𝗥𝗢 𝗕𝗔𝗕𝗨💔**")
+    await msg.reply("**❤️‍🔥𝐕𝐈𝐃𝐄𝐎 𝐂𝐇𝐀𝐓 𝐒𝐓𝐀𝐑𝐓 𝐊𝐑𝐎💔**")
 
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("**😕𝗩𝗖 𝗘𝗡𝗗 𝗠𝗔𝗧 𝗞𝗥𝗢 𝗕𝗔𝗕𝗬💔**")
+    await msg.reply("**❤️‍🔥𝐕𝐈𝐃𝐄𝐎 𝐂𝐇𝐀𝐓 𝐄𝐍𝐃 𝐌𝐀𝐓 𝐊𝐑𝐎💔**")
 
 
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"➻ {message.from_user.mention}\n\n**๏ ɪɴᴠɪᴛɪɴɢ ɪɴ ᴠᴄ ᴛᴏ :**\n\n**➻ **"
+    text = f"➻ {message.from_user.mention}\n\n**๏ 𝐈𝐍𝐕𝐈𝐓𝐈𝐍𝐆 𝐈𝐍 𝐕𝐂°• :**\n\n**➻ **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:
@@ -49,7 +49,7 @@ async def brah3(app: app, message: Message):
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text=" ™❤️‍🔥𝗔𝗗𝗗 𝗠𝗘 𝗚𝗥𝗢𝗨𝗣❤️‍🔥", url=add_link)],
+                    [InlineKeyboardButton(text=" ™❤️‍🔥𝐉𝐎𝐈𝐍 𝐕𝐂 𝐁𝐀𝐁𝐘❤️‍🔥", url=add_link)],
                 ]
             ),
         )
