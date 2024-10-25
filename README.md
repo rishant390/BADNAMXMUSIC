@@ -37,12 +37,12 @@ GO TO [RELOAD.PY](https://github.com/TEAMPURVI/SONALI_MUSIC/blob/main/SONALI/plu
 
 
 
-<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TEAMPURVI&show_icons=true&locale=en&layout=compact" alt="ʀᴀᴊᴀ ʙᴀʙᴜ" /></p>
+<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TEAMP BA&show_icons=true&locale=en&layout=compact" alt="ʀᴀᴊᴀ ʙᴀʙᴜ" /></p>
 
 [![Contributors](https://contrib.rocks/image?repo=TEAMPURVI/SONALI_MUSIC)](https://github.com/TEAMPURVI/SONALI_MUSIC/graphs/contributors)
 
 ### Contact :
-<a href="https://t.me/ll_ALPHA_BABY_lll"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/ll_Badnam_xd"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raushankumarpal03com@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://twitter.com/"><img title="Twitter" src="https://img.shields.io/badge/Twitter-12100E?style=for-the-badge&logo=twitter&logoColor=white"></a>
 <a href="https://facebook.com/"><img title="Facebook" src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white"></a>
