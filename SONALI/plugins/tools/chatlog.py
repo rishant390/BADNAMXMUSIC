@@ -11,11 +11,11 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-    "https://files.catbox.moe/vyvvp3.jpg",
-    "https://files.catbox.moe/w1b203.jpg",
-    "https://files.catbox.moe/97hzek.jpg",
-    "https://files.catbox.moe/mqkj80.jpg",
-    "https://files.catbox.moe/vyvvp3.jpg",
+    "https://files.catbox.moe/6nhwo7.jpg",
+    "https://files.catbox.moe/6nhwo7.jpg",
+    "https://files.catbox.moe/6nhwo7.jpg",
+    "https://files.catbox.moe/6nhwo7.jpg",
+    "https://files.catbox.moe/6nhwo7.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
