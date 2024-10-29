@@ -33,7 +33,7 @@ async def start(_, msg):
           InlineKeyboardButton("⌯꯭ 𝐁 ꯭ᴧ꯭ ∂ ꯭𝛈 ꯭ᴧ ꯭ɱ꯭ 🥂꯭ 𝗫꯭ ꯭ᴅ ꯭꯭-//꯭- ִֶָ ꯭꯭꯭݁🥀꯭", url="https:/@Alone_xdlll"),
           ],
                [
-                InlineKeyboardButton("𝗧ᴇᴀᴍ 𝗣ᴜʀᴠɪ 𝗕ᴏᴛs", url=f"https://t.me/Alone_xdllll"),
+                InlineKeyboardButton("Tᴇᴀᴍ Bᴀᴅɴᴀᴍ Bᴏᴛ", url=f"https://t.me/Alone_xdllll"),
 ],
 [
 InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/INSTAGRAM_MUSIC_XD_BOT"),
@@ -43,7 +43,7 @@ InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/INSTAGRAM_MUSI
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://files.catbox.moe/9qrlo9.jpg",
+        photo="https://files.catbox.moe/m83wd9.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
