@@ -30,14 +30,14 @@ GO TO [RELOAD.PY](https://github.com/TEAMPURVI/SONALI_MUSIC/blob/main/SONALI/plu
 </p>
 
 <h3 align="center">
-    ─「 Bᴀᴅɴᴀᴍ xᴅ Dᴇᴘʟᴏʏ 」─
+    ─「 𝐓𝐄𝐀𝐌 𝐁𝐀𝐃𝐍𝐀𝐌 𝐗𝐃 」─
 </h3>
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/BADNAM07123/BADNAMXMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
-<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TEAMP BA&show_icons=true&locale=en&layout=compact" alt="ʀᴀᴊᴀ ʙᴀʙᴜ" /></p>
+<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TEAMP BA&show_icons=true&locale=en&layout=compact" alt="𝐓𝐄𝐀𝐌 𝐁𝐀𝐃𝐍𝐀𝐌 𝐗𝐃" /></p>
 
 [![Contributors](https://contrib.rocks/image?repo=TEAMPURVI/SONALI_MUSIC)](https://github.com/TEAMPURVI/SONALI_MUSIC/graphs/contributors)
 
