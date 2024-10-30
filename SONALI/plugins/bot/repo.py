@@ -17,6 +17,7 @@ start_txt = """
  
 ✰ 𝗥ᴜɴ 24x7 𝗟ᴀɢ 𝗙ʀᴇᴇ 𝗪ɪᴛʜᴏᴜᴛ 𝗦ᴛᴏᴘ
  
+ 
 """
 
 
@@ -30,7 +31,7 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗛ᴇʟᴘ", url="https://t.me/Alone_xdllll"),
-          InlineKeyboardButton("⌯꯭ 𝐁 ꯭ᴧ꯭ ∂ ꯭𝛈 ꯭ᴧ ꯭ɱ꯭ 🥂꯭ 𝗫꯭ ꯭ᴅ ꯭꯭-//꯭- ִֶָ ꯭꯭꯭݁🥀꯭", url="https:/@Alone_xdlll"),
+          InlineKeyboardButton("⌯꯭ 𝐁 ꯭ᴧ꯭ ∂ ꯭𝛈 ꯭ᴧ ꯭ɱ꯭  𝗫꯭ ꯭ᴅ ꯭꯭-//꯭- ", url="https:/@Alone_xdlll"),
           ],
                [
                 InlineKeyboardButton("Tᴇᴀᴍ Bᴀᴅɴᴀᴍ Bᴏᴛ", url=f"https://t.me/Alone_xdllll"),
