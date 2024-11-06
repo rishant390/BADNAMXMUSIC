@@ -115,8 +115,8 @@ async def start(client: Client, message: Message):
     ac_audio = str(len(await get_active_chats()))
     ac_video = str(len(await get_active_video_chats()))
     await message.reply_text(
-        f"✫ <b><u>ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ</u></b> :\n\n𝐕𝐎𝐈𝐂𝐄 : {ac_audio}\n𝐕𝐈𝐃𝐄𝐎  : {ac_video}",
+        f"✫ <b><u>ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ</u></b> :\n\ᴀᴜᴅɪᴏ : {ac_audio}\nᴠɪᴅᴇᴏ : {ac_video}",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🥂𝐂𝐋𝐎𝐒𝐄🥂", callback_data=f"close")]]
+            [[InlineKeyboardButton("", callback_data=f"close")]]
         ),
     )
