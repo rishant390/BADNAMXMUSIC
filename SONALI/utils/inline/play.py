@@ -41,25 +41,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "─𝐁─────────"
+        bar = "─S─────────"
     elif 10 < umm < 20:
-        bar = "─𝐀─────────"
+        bar = "─u─────────"
     elif 20 <= umm < 30:
-        bar = "───𝐃───────"
+        bar = "───D───────"
     elif 30 <= umm < 40:
-        bar = "────𝐍──────"
+        bar = "────H──────"
     elif 40 <= umm < 50:
-        bar = "─────♡─────"
+        bar = "─────S─────"
     elif 50 <= umm < 60:
-        bar = "──────𝐀────"
+        bar = "──────E────"
     elif 60 <= umm < 70:
-        bar = "───────𝐌───"
+        bar = "───────E───"
     elif 70 <= umm < 80:
-        bar = "────────𝐗──"
+        bar = "────────R──"
     elif 80 <= umm < 95:
-        bar = "─────────𝐃─"   
+        bar = "─────────K─"   
     else:
-        bar = "──────────💔"
+        bar = "──────────S"
         
     buttons = [
         [
@@ -77,10 +77,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="https://t.me/Alone_xdllll",
+                text="Oᴡɴᴇʀ🥀", url="https://t.me/Alone_xdllll",
             ),
             InlineKeyboardButton(
-                text=" ✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/Alone_xdllll",
+                text=" 𝚂ᴜᴘᴘʀᴏᴛ🥀", url="https://t.me/Alone_xdllll",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -100,10 +100,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="https://t.me/Alone_xdllll",
+                text="Oᴡɴᴇʀ🥀", url="https://t.me/Alone_xdllll",
             ),
             InlineKeyboardButton(
-                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/Alone_xdllll",
+                text="𝚂ᴜᴘᴘʀᴏᴛ🥀", url="https://t.me/Alone_xdllll",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -224,7 +224,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 2:
-        bar = "⚡sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ⚡"
+        bar = "⚡Bᴀᴅɴᴀᴍ Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ⚡"
     elif 2 < anon < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
     elif 3 <= anon < 4:
