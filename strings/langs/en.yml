@@ -176,8 +176,8 @@ queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}
 stream_1 : "➲ <b>Bᴀᴅɴᴀᴍ Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ </b>\n\n<b>‣ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n<b>‣ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n\n** ❍ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ [ тєαм вα∂ηαм](https://t.me/Alone_xdllll)**"
 stream_2 : "➲ **™Bᴀᴅɴᴀᴍ Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ™|**\n\n**‣ sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :** ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n**‣ ʙʏ :** {0}\n\n**⎯꯭𝐌𝐀𝐃𝐄 𝐁𝐘⎯꯭ [ тєαм вα∂ηαм](https://t.me/Alone_xdllll)**"
 
-CLOSE_BUTTON  : "🥂𝐂𝐋𝐎𝐒𝐄 🥂"
-BACK_BUTTON : " 🥂𝗕𝗔𝗖𝗞 🥂"
+CLOSE_BUTTON  : "🥂Cʟᴏsᴇ 🥂"
+BACK_BUTTON : " 🥂Bᴀᴄᴋ 🥂"
 NEXT_PAGE: ">"
 BACK_PAGE: "<"
 
