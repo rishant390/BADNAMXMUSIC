@@ -30,7 +30,7 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/KSDHEROKUCC"),
-          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/lll_hunter_ll"),
+          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/ll_hunter_lll"),
           ],
                [
                 InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/Ksd_bot_network"),
