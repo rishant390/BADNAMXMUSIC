@@ -11,11 +11,11 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-    "https://files.catbox.moe/59vlul.jpg",
-    "https://files.catbox.moe/6nhwo7.jpg",
-    "https://files.catbox.moe/6nhwo7.jpg",
-    "https://files.catbox.moe/6nhwo7.jpg",
-    "https://files.catbox.moe/59vlul.jpg",
+    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
+    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
+    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
+    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
+    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
@@ -26,17 +26,17 @@ async def join_watcher(_, message):
         if member.id == app.id:
             count = await app.get_chat_members_count(chat.id)
             msg = (
-                f"📝 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 𝐀𝐃𝐃𝐄𝐃 𝐈𝐍 𝐀 𝐍𝐄𝐖 𝐆𝐑𝐎𝐔𝐏\n\n"
+                f"📝 ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ\n\n"
                 f"____________________________________\n\n"
-                f"📌 𝐂𝐇𝐀𝐓 𝐍𝐀𝐌𝐄: {chat.title}\n"
-                f"🍂 𝐂𝐇𝐀𝐓 𝐈𝐃: {chat.id}\n"
-                f"🔐 𝐂𝐇𝐀𝐓 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄: @{chat.username}\n"
-                f"🙏𝐂𝐇𝐀𝐓 𝐋𝐈𝐍𝐊: [𝐂𝐋𝐈𝐂𝐊]({link})\n"
-                f"📈 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐌𝐁𝐄𝐑𝐒: {count}\n"
-                f"🤔 𝐀𝐃𝐃𝐄𝐃 𝐁𝐘: {message.from_user.mention}"
+                f"📌 ᴄʜᴀᴛ ɴᴀᴍᴇ: {chat.title}\n"
+                f"🍂 ᴄʜᴀᴛ ɪᴅ: {chat.id}\n"
+                f"🔐 ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{chat.username}\n"
+                f"🛰 ᴄʜᴀᴛ ʟɪɴᴋ: [ᴄʟɪᴄᴋ]({link})\n"
+                f"📈 ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
+                f"🤔 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(f"𝐒𝐄𝐄 𝐆𝐑𝐎𝐔𝐏👀", url=f"{link}")]
+                [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ👀", url=f"{link}")]
             ]))
 
 @app.on_message(filters.left_chat_member)
