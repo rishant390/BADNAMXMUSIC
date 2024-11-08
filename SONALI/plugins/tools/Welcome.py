@@ -139,7 +139,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 
 ❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα](https://t.me/KSD_BOT_NETWORK)
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ƙҽԃɳαρ ɱҽ ⦿ ", url=f"https://t.me/riya_music_robot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url=f"https://t.me/riya_music_robot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
