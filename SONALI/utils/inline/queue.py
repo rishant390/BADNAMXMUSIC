@@ -72,14 +72,15 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text="♡σωɳҽɾ♡", url=f"https://t.me/Ksd_bot_network"
-            ),
-            InlineKeyboardButton(
-                text="♡ʂρρσɾƚ♡", url=f"https://t.me/team_riya_support"
-            ),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
+        ],
+        [
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
+        ],
     ]
     return buttons
 
