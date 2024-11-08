@@ -7,7 +7,11 @@ from SONALI import app
 from SONALI.utils.database import add_served_chat, get_assistant
 
 
-@app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
+@app.on_message(
+    filters.command("gadd")
+    & filters.private
+    & filters.user(7668520999)
+   )
 async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
