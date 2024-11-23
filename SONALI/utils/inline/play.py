@@ -75,8 +75,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/ajisbackk",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/legandchatting57",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riyaxmusicbot?startgroup=true",),
@@ -99,8 +99,8 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/ajisbackk",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/legandchatting57",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riyaXmusicbot?startgroup=true",),
